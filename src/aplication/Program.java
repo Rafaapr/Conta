@@ -10,12 +10,13 @@ import entities.BusinessAccount;
 import entities.SavingsAccount;
 
 public class Program {
+	
 
 	public static void main(String[] args) {
 
 		Locale.setDefault(Locale.US);
 		
-		
+		// 
 		List <Account> list = new ArrayList<>();
 		
 		list.add(new SavingsAccount (1001, "Alex", 500.00, 0.01));
